@@ -2,25 +2,11 @@
 import { Config } from "tailwindcss";
 import plugin from "tailwindcss/plugin";
 import daisyui from "daisyui";
-const customColors = {
-	hedder: {
-		100: "#8DAF00",
-	},
-	background: {
-		100: "#F9F2D7",
-	},
-	mono: {
-		100: "#edeeee",
-		200: "#e5e5e6",
-		300: "#9e9e9f",
-		500: "#231815",
-	},
-};
+
 export default {
 	content: ["./src/**/*.{js,ts,jsx,tsx,html,hbs,astr,astro}"],
 	theme: {
 		extend: {
-			colors: customColors,
 			padding: {
 				3.5: "0.875rem",
 				7.5: "1.875rem",
@@ -53,7 +39,7 @@ export default {
 				3: "0.1875rem",
 			},
 			animation: {
-				"scale-up-ver-center": "scale-up-ver-center 0.4s cubic-bezier(0.165, 0.840, 0.440, 1.000) 3.1s 3 both",
+				"scale-up-ver-center": "scale-up-ver-center 0.4s cubic-bezier(0.165, 0.840, 0.440, 1.000) 2s 3 both",
 			},
 			keyframes: {
 				"scale-up-ver-center": {

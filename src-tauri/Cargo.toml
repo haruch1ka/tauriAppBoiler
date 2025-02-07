@@ -1,6 +1,6 @@
 #node.js におけるpackage.jsonみたいなもん
 [package]
-name = "hello_tauri"
+name = "windowsApp試作壱號"
 version = "0.1.0"
 description = "A Tauri App"
 authors = ["you"]
