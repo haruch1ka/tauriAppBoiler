@@ -7,14 +7,6 @@ export default {
 	content: ["./src/**/*.{js,ts,jsx,tsx,html,hbs,astr,astro}"],
 	theme: {
 		extend: {
-			padding: {
-				3.5: "0.875rem",
-				7.5: "1.875rem",
-				11.5: "2.875rem",
-			},
-			height: {
-				11.5: "2.875rem",
-			},
 			fontWeight: {
 				thin: 100,
 				extralight: 200,
@@ -27,15 +19,13 @@ export default {
 				black: 900,
 			},
 			fontSize: {
-				"1.5xl": ["1.25rem", "1.75rem"],
-				"2.5xl": ["1.75rem", "2.25rem"],
 				"4xl": ["2.25rem", "2.5rem"],
 			},
 			borderRadius: {
-				"2.5xl": "1.25rem",
 				"4xl": "2rem",
 			},
 			borderWidth: {
+				1: "0.25rem",
 				3: "0.1875rem",
 			},
 			animation: {
