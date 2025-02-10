@@ -26,7 +26,7 @@ const Header = () => {
 				<Delay delay={1000} giveClassName="animate__animated animate__fadeInDown animate__fast">
 					<div className=" flex cursor-pointer items-center gap-2 overflow-hidden whitespace-nowrap rounded-lg px-3 py-1.5 text-lg font-semibold">
 						<div className="text-token-text-secondary text-gray-700 flex-shrink-0">App</div>
-						<BoltIcon className="h-6 w-6 text-yellow-400 flex-shrink-0 animate-scale-up-ver-center" />
+						<BoltIcon className="h-6 w-6 text-amber-400 flex-shrink-0 animate-scale-up-ver-center" />
 					</div>
 				</Delay>
 			</div>
