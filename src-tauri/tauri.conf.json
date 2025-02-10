@@ -1,6 +1,6 @@
 {
 	"$schema": "https://schema.tauri.app/config/2",
-	"productName": "Hello Tauri",
+	"productName": "your_product_name",
 	"version": "0.1.0",
 	"identifier": "com.hello-tauri.app",
 	"build": {
@@ -12,7 +12,7 @@
 	"app": {
 		"windows": [
 			{
-				"title": "windowsApp試作壱號",
+				"title": "your_app_file_name",
 				"width": 800,
 				"height": 600
 			}
